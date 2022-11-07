@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,700;1,800&family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+nav li {
+    list-style: none;
+    display: inline;
+    padding: 0px 12px;
+}
+
+nav {
+    text-align: right;
+    width: 1140px;
+    margin: auto;
+}
+
+nav a {
+    text-decoration: none;
+    color: #3C3C3C;
+    font-weight: 500;
+}
+
+.banner {
+    width: 1140px;
+    margin: auto;
+    display: flex;
+}
+
+.banner-info {
+    width: 50%;
+    margin-top: 170px;
+}
+
+.banner-image {
+    width: 50%;
+}
+
+.banner-image img {
+    width: 80%;
+}
+
+.banner-info h1 {
+    color: #363958;
+    font-size: 42px;
+    font-weight: 700;
+    margin-bottom: 6px;
+    text-transform: uppercase;
+}
+
+.banner-info h2 {
+    color: #FF8367;
+    font-size: 44px;
+    margin-top: 0;
+}
+
+.banner-info p {
+    font-size: 16px;
+    color: #3E3E3E;
+    width: 90%;
+    line-height: 26px;
+    margin-bottom: 20px;
+}
+
+.button {
+    background-image: linear-gradient(0deg, #FF8063 -28.33%, #F46060 95.83%);
+    text-decoration: none;
+    padding: 10px 40px;
+    color: white;
+    border-radius: 6px;
+    font-size: 15px;
+    border: none;
+}
+
+.services {
+    margin-top: 50px;
+    width: 1140px;
+    margin: auto;
+}
+
+.service-title {
+    color: #363958;
+    font-size: 34px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.service-title span {
+    color: #FF8367;
+}
+
+.single-service{
+    width: 300px;
+    box-shadow: 0px 10px 20px #80808061;
+    padding: 30px 22px;
+    border-radius: 6px;
+    margin-right: 24px;
+    text-align: center;
+}
+
+.single-service p {
+    text-align:justify;
+    color: #6C6C6C;
+    font-size: 15px;
+}
+
+.single-service h2 {
+    color: #3C3C3C;
+    font-weight: 700;
+}
+
+.services-container{
+    display: flex;
+}
+
+.working-project{
+    background: #F8F9FC;
+    margin-top: 80px;
+    height: 620px;
+}
+
+.project-container{
+    width: 1140px;
+    margin: auto;
+    display: flex;
+}
+
+.project-title{
+    color: #363958;
+    font-size: 34px;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 80px;
+    margin-bottom: 40px;
+    
+}
+
+.project-title span{
+    color: #F46060;
+}
+
+.single-project{
+    width: 350px;
+    background-color: #fff;
+    padding: 14px;
+    border-radius: 20px;
+    margin-right: 24px;
+    box-shadow: 0px 10px 20px #80808061;
+}
+
+.project-image{
+    width: 100%;
+}
+
+.single-project h2{
+    color: #363958;
+    font-size: 22px;
+}
+
+.single-project p {
+    font-size: 15px;
+    color: #6C6C6C;
+}
+
+.contact{
+    width: 1140px;
+    margin: auto;
+    margin-top: 80px;
+}
+
+.contact h1 {
+    text-align: center;
+    color: #363958;
+    font-size: 34px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+.contact span {
+    color: #F46060;
+}
+
+.form {
+    text-align: center;
+}
+
+#subject{
+    width: 600px;
+    padding:  10px 8px;
+    margin-bottom: 20px;
+}
+
+#message{
+    width: 600px;
+    padding: 10px 8px;
+    margin-bottom: 20px;
+}
+
+.name{
+    width: 265px;
+    padding: 10px 8px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+
+.email{
+    width: 265px;
+    padding: 10px 8px;
+    margin-bottom: 20px;
+    margin-left: 20px; 
+}
+
+.footer {
+    width: 1140px;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+.work-bg img{
+    width: 60%;
+}
+
+.work-bg{
+    position: absolute;
+}
+
+.work-info{
+    position: relative;
+    display: flex;
+    padding: 50px;
+}
+
+.work-info h1{
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 40px;
+    margin-right: 200px;
+}
+
